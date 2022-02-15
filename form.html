@@ -14,28 +14,28 @@
     <form action="welcome.html">
         <div id="firstname">
             <label for="firstname">First name : </label> <br>
-            <input type="text" name="firstname" id="firstname">
+            <input type="text" name="firstname" id="firstname" required>
         </div>
         <br>
         <div id="lastname">
             <label for="lastname">Last name : </label> <br>
-            <input type="text" name="lastname" id="lastname">
+            <input type="text" name="lastname" id="lastname" required>
         </div>
         <br>
         <div id="gender">
             <label>Gender : </label> <br>
 
-            <input type="radio" name="gender" id="male" value="Male">
+            <input type="radio" name="gender" id="male" value="Male" required>
             <label for="male">Male</label> <br>
-            <input type="radio" name="gender" id="female">
+            <input type="radio" name="gender" id="female" required>
             <label for="female">Female</label> <br>
-            <input type="radio" name="gender" id="other">
+            <input type="radio" name="gender" id="other" required>
             <label for="other">Other</label>
         </div>
         <br>
         <div class="nasionality">
             <label for="nasionality">Nasionality</label> <br>
-            <select name="nasionality" id="nasionality">
+            <select name="nasionality" id="nasionality" required>
                 <option value="Indonesia">Indonesia</option>
                 <option value="Jepang">Jepang</option>
                 <option value="Malaysia">Malaysia</option>
@@ -56,7 +56,7 @@
         <br>
         <div class="bio">
             <label for="">Bio:</label><br>
-            <textarea name="" id="" cols="35" rows="8"></textarea>
+            <textarea name="" id="" cols="35" rows="8" required></textarea>
         </div>
         <input type="submit" name="" id="" value="Sign Up">
 
